@@ -1,0 +1,32 @@
+### Tạo sản phẩm
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{ "name": "Bàn phím cơ", "price": 1250000 }
+
+### Lấy danh sách
+GET http://localhost:8081/api/products
+
+### Lấy theo id
+GET http://localhost:8081/api/products/1
+
+### Lấy id không tồn tại -> 404
+GET http://localhost:8081/api/products/9999
+
+### Cập nhật toàn phần
+PUT http://localhost:8081/api/products/1
+Content-Type: application/json
+
+{ "name": "Bàn phím cơ Pro", "price": 1890000 }
+
+### Cập nhật riêng giá (nâng cao)
+PATCH http://localhost:8081/api/products/1/price
+Content-Type: application/json
+
+{ "price": 990000 }
+
+### Xoá -> 204
+DELETE http://localhost:8081/api/products/1
+
+### Xoá lại -> 404
+DELETE http://localhost:8081/api/products/1
