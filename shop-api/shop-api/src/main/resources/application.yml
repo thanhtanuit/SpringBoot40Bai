@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: shop-api
+  profiles:
+    default: dev
+
+shop:
+  name: Cua hang demo
+  max-items-per-page: 20
+  currency: VND
+
+logging:
+  level:
+    com.example.shop: DEBUG

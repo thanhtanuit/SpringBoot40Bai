@@ -1,5 +1,8 @@
 package com.example.shop.service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.example.shop.exception.*;
 import com.example.shop.model.Product;
 import com.example.shop.repository.ProductRepository;
@@ -11,6 +14,7 @@ import java.util.List;
 public class ProductService {
 
     private final ProductRepository repo;
+    private static final Logger log = LoggerFactory.getLogger(ProductService.class);
 
     public ProductService(ProductRepository repo) {
         this.repo = repo;

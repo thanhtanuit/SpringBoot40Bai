@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+shop:
+  name: Cua hang chinh thuc
+  max-items-per-page: 50
+  currency: VND
+
+logging:
+  level:
+    com.example.shop: INFO
+    root: WARN

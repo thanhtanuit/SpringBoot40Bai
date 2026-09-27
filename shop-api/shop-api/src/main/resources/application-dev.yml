@@ -1,0 +1,8 @@
+shop:
+  name: Cua hang DEV
+  max-items-per-page: 20
+  currency: VND
+
+logging:
+  level:
+    com.example.shop: DEBUG
