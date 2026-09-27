@@ -1,0 +1,1 @@
+Mở VS Code, nhấn tổ hợp phím Ctrl + Shift + X (hoặc Cmd + Shift + X trên Mac) để mở mục Extensions.Tìm và cài đặt gói: Extension Pack for Java (Bộ này bao gồm Java Debugger, Maven, etc.).Tìm và cài đặt tiếp gói: Spring Boot Extension Pack (Hỗ trợ gợi ý code, quản lý ứng dụng Spring).
